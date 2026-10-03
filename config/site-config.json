@@ -1,0 +1,19 @@
+{
+  "backgroundCubes": {
+    "enabled": true,
+    "count": 10,
+    "sizeMin": 30,
+    "sizeMax": 64,
+    "speedMin": 34,
+    "speedMax": 78,
+    "rotationSpeedMin": 0.35,
+    "rotationSpeedMax": 1.15,
+    "shatterFragments": 16,
+    "respawnDelayMs": 260,
+    "lightOpacity": 0.44,
+    "darkOpacity": 0.58,
+    "color": "#7C5CFC",
+    "darkModeColor": "#B8A7FF",
+    "opacity": 0.4
+  }
+}

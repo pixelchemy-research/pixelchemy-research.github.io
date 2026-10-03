@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Project | Pixelchemy Research</title>
+  <script id="gv-theme-bootstrap">
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') document.documentElement.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
+  <style id="gv-critical-bg">
+    html, body { margin: 0; background: #eef9ff; }
+    html[data-theme="dark"], html[data-theme="dark"] body { background: #07131f; }
+  </style>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="project-page">
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="../../index.html">
+        <img src="../../assets/images/logo/logo.webp" alt="Pixelchemy Research" class="logo-image">
+        Pixelchemy<span>Research</span>
+      </a>
+      <div class="nav-links">
+        <a href="../../index.html">Home</a>
+        <a href="../../projects.html">Projects</a>
+        <a href="../../publications.html">Publications</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-main">
+    <header class="project-header">
+      <div class="container">
+        <h1 id="project-title" class="project-title"></h1>
+        <div id="project-authors" class="project-authors"></div>
+        <div id="project-affiliation" class="project-affiliation"></div>
+        <div id="project-venue" class="project-venue"></div>
+        <div id="project-buttons" class="project-buttons"></div>
+      </div>
+    </header>
+
+    <img id="project-teaser" class="teaser" alt="Project teaser">
+
+    <div class="project-content">
+      <h2>TL;DR</h2>
+      <p id="project-tldr"></p>
+      <h2>Abstract</h2>
+      <p id="project-abstract"></p>
+      <div id="project-sections"></div>
+      <h2>BibTeX</h2>
+      <pre><code id="project-bibtex"></code></pre>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Pixelchemy Research.</div>
+  </footer>
+
+  <script src="../../assets/js/app.js"></script>
+</body>
+</html>

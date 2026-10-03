@@ -1,0 +1,40 @@
+{
+  "title": "OrthoStyle",
+  "subtitle": "Training-Free Reference-Based Diffusion Style Transfer",
+  "authors": [
+    {
+      "name": "Duc Khoan Le",
+      "url": "#"
+    },
+    {
+      "name": "Author Two",
+      "url": "#"
+    }
+  ],
+  "affiliation": "Pixelchemy Research",
+  "venue": "Conference 2026",
+  "links": {
+    "paper": "#",
+    "arxiv": "#",
+    "code": "https://github.com/GenVision-Research/OrthoStyle",
+    "demo": ""
+  },
+  "teaser": "assets/teaser.svg",
+  "tldr": "Training-free style transfer with reduced semantic leakage.",
+  "abstract": "We introduce OrthoStyle, a training-free framework for reference-based diffusion style transfer.",
+  "sections": [
+    {
+      "title": "Method",
+      "image": "assets/method.svg",
+      "caption": "Overview of OrthoStyle.",
+      "text": "Replace this placeholder with the final method description."
+    },
+    {
+      "title": "Results",
+      "image": "assets/results.svg",
+      "caption": "Qualitative results.",
+      "text": "Replace this placeholder with the final results description."
+    }
+  ],
+  "bibtex": "@inproceedings{le2026orthostyle,...}"
+}

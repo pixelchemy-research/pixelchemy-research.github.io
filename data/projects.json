@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Talking Face Generation",
+    "category": "Multimodal Generation",
+    "description": "Audio-driven talking-face generation with expressive facial motion and temporal consistency.",
+    "image": "assets/images/projects/talkingface.webp",
+    "startYear": 2025,
+    "status": "Ongoing",
+    "featured": true,
+    "tags": [
+      "Talking Face",
+      "Multimodal"
+    ]
+  },
+  {
+    "title": "Style Transfer",
+    "category": "Generative Vision",
+    "description": "Reference-based style transfer for controllable visual generation while preserving content structure.",
+    "image": "assets/images/projects/styletransfer.webp",
+    "startYear": 2026,
+    "status": "Ongoing",
+    "featured": true,
+    "tags": [
+      "Style Transfer",
+      "Training-Free"
+    ]
+  }
+]

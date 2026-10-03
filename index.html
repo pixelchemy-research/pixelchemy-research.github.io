@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Pixelchemy Research — Generative AI, Computer Vision, Diffusion, Flow Matching and Mathematical AI.">
+  <title>Pixelchemy Research</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/logo/favicon.webp">
+  <script id="gv-theme-bootstrap">
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') document.documentElement.dataset.theme = saved;
+      } catch (e) { }
+    })();
+  </script>
+  <style id="gv-critical-bg">
+    html,
+    body {
+      margin: 0;
+      background: #eef9ff;
+    }
+
+    html[data-theme="dark"],
+    html[data-theme="dark"] body {
+      background: #07131f;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html"> <img src="assets/images/logo/logo.webp" alt="Pixelchemy Research"
+          class="logo-image"> Pixelchemy<span>Research</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="people.html">People</a>
+        <a href="news.html">News</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <canvas id="hero-network" class="hero-network" aria-hidden="true"></canvas>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <a id="hero-announcement" class="hero-announcement" href="news.html" hidden>
+          <span class="announcement-label">NEW</span>
+          <span class="announcement-title">Latest research update</span>
+          <span class="announcement-arrow" aria-hidden="true">→</span>
+        </a>
+        <div class="hero-badge">Generative Vision</div>
+        <h1>Efficient <span class="blue">Generative Vision</span> under Constraints.</h1>
+        <p>We explore efficient generative vision under resource constraints, focusing on training-free methods, controllable generation, diffusion and flow-based models, and efficient sampling.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="publications.html">Explore Publications →</a>
+          <a class="btn" href="projects.html">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-glass">
+          <div class="hero-chip one">Diffusion & Flow</div>
+          <div class="hero-chip two">Training-Free</div>
+          <div class="hero-chip three">Multimodal</div>
+          <div class="hero-chip four">Efficient Sampling</div>
+          <div class="hero-mark">
+            <div class="hero-mark-inner">GenAI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft">
+    <div class="container">
+
+      <p class="section-kicker">What we work on</p>
+      <h2 class="section-title">Research</h2>
+
+      <p class="section-subtitle">
+        We develop efficient generative methods for vision, language, and multimodal learning, with an emphasis on training-free adaptation and resource-constrained inference.
+      </p>
+
+      <div class="research-list">
+
+        <div class="research-item">
+          <h3>Generative Vision</h3>
+          <p>
+            Style transfer, image generation, video synthesis, and controllable visual generation.
+          </p>
+        </div>
+
+        <div class="research-item">
+          <h3>Training-Free Generation</h3>
+          <p>
+            Controllable generation, reward-guided editing, and adaptation without model retraining.
+          </p>
+        </div>
+
+        <div class="research-item">
+          <h3>Efficient Sampling</h3>
+          <p>
+            Few-step sampling, diffusion and flow matching, and resource-efficient inference.
+          </p>
+        </div>
+
+        <div class="research-item">
+          <h3>Multimodal & Diffusion Language Models</h3>
+          <p>
+            Audio-driven generation, talking-face synthesis, and diffusion language models.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Selected work</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Discover our research projects, papers, code, visual results, and supporting resources.
+          </p>
+        </div>
+        <a class="text-link" href="projects.html">All Projects →</a>
+      </div>
+      <div id="featured-projects" class="grid-3"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© 2026 Pixelchemy Research. All rights reserved.</div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

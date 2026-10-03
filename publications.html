@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Publications from Pixelchemy Research">
+  <title>Pixelchemy Research</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/logo/favicon.webp">
+  <script id="gv-theme-bootstrap">
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') document.documentElement.dataset.theme = saved;
+      } catch (e) { }
+    })();
+  </script>
+  <style id="gv-critical-bg">
+    html,
+    body {
+      margin: 0;
+      background: #eef9ff;
+    }
+
+    html[data-theme="dark"],
+    html[data-theme="dark"] body {
+      background: #07131f;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner"><a class="logo" href="index.html"> <img src="assets/images/logo/logo.webp" alt="Pixelchemy Research"
+          class="logo-image">Pixelchemy<span>Research</span></a>
+      <div class="nav-links"><a href="index.html">Home</a><a
+          href="publications.html">Publications</a><a href="projects.html">Projects</a><a href="people.html">People</a><a href="news.html">News</a><button
+          id="theme-toggle" class="theme-toggle">◐</button></div>
+    </div>
+  </nav>
+  <header class="page-hero">
+    <div class="container">
+      <p class="section-kicker">Research output</p>
+      <h1 class="section-title">Publications</h1>
+      <p class="section-subtitle">Selected papers, preprints, project pages, and BibTeX entries from
+        the group.</p>
+    </div>
+  </header>
+  <section class="section compact">
+    <div class="container">
+      <div class="publication-tools">
+        <div class="search-shell"><input id="pub-search" type="search" placeholder="Search title, author, venue..."
+            autocomplete="off" aria-label="Search publications"></div>
+        <div id="year-select-ui" class="year-select"><select id="year-filter" aria-label="Filter publications by year">
+            <option value="all">All years</option>
+          </select></div>
+      </div>
+      <div id="publication-list"></div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">© 2026 Pixelchemy Research. All rights reserved.</div>
+  </footer>
+  <div id="bibtex-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+
+    <div
+      class="modal-content"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="bibtex-modal-title"
+    >
+      <button
+        id="modal-close"
+        class="modal-close"
+        type="button"
+        aria-label="Close"
+      >
+        ×
+      </button>
+
+      <div class="bibtex-header">
+        <h2 id="bibtex-modal-title">BibTeX</h2>
+
+        <button
+          id="bibtex-copy"
+          class="bibtex-copy"
+          type="button"
+          aria-label="Copy BibTeX to clipboard"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+            aria-hidden="true"
+          >
+            <rect
+              x="8"
+              y="8"
+              width="11"
+              height="11"
+              rx="2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            />
+            <path
+              d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            />
+          </svg>
+
+          <span>Copy</span>
+        </button>
+      </div>
+
+      <pre><code id="bibtex-content"></code></pre>
+    </div>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

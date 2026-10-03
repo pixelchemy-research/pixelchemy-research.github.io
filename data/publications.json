@@ -1,0 +1,116 @@
+[
+  {
+    "title": "TRACE: Time-Adaptive Residual Attention Control with Content-Style Decomposition for Training-Free Diffusion Style Transfer",
+    "authors": [
+      "<b>Duc Khoan Le*</b>",
+      "Kim Ngoc Tran",
+      "Minh Nhat Le",
+      "Thanh An Tran",
+      "Viet Toan Nguyen",
+      "Khanh An Lay",
+      "Tran Thai Son",
+      "Hoang Pham Minh"
+    ],
+    "venue": "ACCV 2026",
+    "year": 2026,
+    "status": "Accepted",
+    "thumbnail": "assets/images/publications/trace.webp",
+    "project": "#",
+    "paper": "#",
+    "code": "https://github.com/pixelchemy-research/TRACE",
+    "arxiv": "#",
+    "bibtex": "@inproceedings{le2026trace,\n  title={TRACE: Time-Adaptive Residual Attention Control with Content-Style Decomposition for Training-Free Diffusion Style Transfer},\n  author={Duc Khoan Le and Kim Ngoc Tran and Minh Nhat Le and Thanh An Tran and Viet Toan Nguyen and Khanh An Lay and Tran Thai Son and Hoang Pham Minh},\n  booktitle={Asian Conference on Computer Vision (ACCV)},\n  year={2026}\n}"
+  },
+
+  {
+    "title": "LTDAD-Talker: Landmark-Guided Talking Face Generation with Temporal Consistency and Detail-Aware Discriminator",
+    "authors": [
+      "<b>Duc Khoan Le*</b>",
+      "Duc Hao Do",
+      "Minh Hoang Pham"
+    ],
+    "venue": "ICCCI 2025",
+    "year": 2025,
+    "thumbnail": "assets/images/publications/iccci.webp",
+    "project": "#",
+    "paper": "https://doi.org/10.1007/978-3-032-09321-9_22",
+    "code": "#",
+    "arxiv": "#",
+    "bibtex": "@inproceedings{le2025ltdad,\n  title={LTDAD-Talker: Landmark-Guided Talking Face Generation with Temporal Consistency and Detail-Aware Discriminator},\n  author={Le, Duc Khoan and Do, Duc Hao and Pham, Minh Hoang},\n  booktitle={International Conference on Computational Collective Intelligence},\n  pages={322--336},\n  year={2025},\n  organization={Springer}\n}"
+  },
+  {
+    "title": "AttNetVLAD and AttNetVLAD++: Capturing Frame Feature Correlations with Self-Attention for Event Spotting in Football Videos",
+    "authors": [
+      "Anh Pham Hong",
+      "<b>Duc Khoan Le*</b>",
+      "Minh Hoang Pham"
+    ],
+    "venue": "RIVF 2025",
+    "year": 2025,
+    "thumbnail": "assets/images/publications/rivf.webp",
+    "project": "#",
+    "paper": "https://doi.org/10.1109/RIVF68649.2025.11365161",
+    "code": "#",
+    "arxiv": "#",
+    "bibtex": "@inproceedings{hong2025attnetvlad,\n  title={AttNetVLAD and AttNetVLAD++: Capturing Frame Feature Correlations with Self-Attention for Event Spotting in Football Videos},\n  author={Hong, Anh Pham and Le Duc, Khoan and Minh, Hoang Pham},\n  booktitle={2025 RIVF International Conference on Computing and Communication Technologies (RIVF)},\n  pages={687--692},\n  year={2025},\n  organization={IEEE}\n}"
+  },
+  {
+    "title": "Towards an Improvement of Slot Filling Method Using Convolution Layer to Capture Localization",
+    "authors": [
+      "<b>Duc Khoan Le*</b>",
+      "Thanh Sang Le",
+      "Nguyen Xuan Nam Dang",
+      "Ngoc Bao Duy Tran",
+      "Tuong Nguyen Huynh"
+    ],
+    "venue": "SEATUC Journal of Science and Engineering",
+    "year": 2023,
+    "thumbnail": "assets/images/publications/seajournal.webp",
+    "project": "#",
+    "paper": "https://doi.org/10.34436/sjse.4.1_38",
+    "code": "#",
+    "arxiv": "#",
+    "bibtex": "@article{le2023slotfilling,\n  title={Towards an Improvement of Slot Filling Method Using Convolution Layer to Capture Localization},\n  author={Le, Duc Khoan and Le, Thanh Sang and Dang, Nguyen Xuan Nam and Tran, Ngoc Bao Duy and Huynh, Tuong Nguyen},\n  journal={Journal of Science and Engineering Applications},\n  volume={4},\n  number={1},\n  pages={38--45},\n  year={2023},\n  doi={10.34436/sjse.4.1_38}\n}"
+  },
+    {
+    "title": "Towards an Improvement of Slot Filling Method Based on JointBERT",
+    "authors": [
+      "<b>Duc Khoan Le*</b>",
+      "Thanh Sang Le",
+      "Nguyen Xuan Nam Dang",
+      "Ngoc Bao Duy Tran",
+      "Tuong Nguyen Huynh"
+    ],
+    "venue": "SEATUC 2023",
+    "year": 2023,
+    "thumbnail": "assets/images/publications/seatuc.webp",
+    "project": "#",
+    "paper": "https://seatuc2023.sut.ac.th/wp-content/uploads/2023/03/Proceedings-of-SEATUC-2023_compressed_2.pdf",
+    "code": "#",
+    "arxiv": "#",
+    "bibtex": "@inproceedings{le2023jointbert,\n  title={Towards an Improvement of Slot Filling Method Based on JointBERT},\n  author={Le, Duc Khoan and Le, Thanh Sang and Dang, Nguyen Xuan Nam and Tran, Ngoc Bao Duy and Huynh, Tuong Nguyen},\n  booktitle={Proceedings of the 17th South East Asian Technical University Consortium Symposium},\n  year={2023}\n}"
+  },
+  {
+    "title": "Towards De Novo Drug Design for the Coronavirus: A Drug-Target Interaction Prediction Approach using Atom-enhanced Graph Neural Network with Multi-hop Gating Mechanism",
+    "authors": [
+      "Duc Q. Nguyen",
+      "<b>Khoan D. Le*</b>",
+      "Bach T. Ly",
+      "An D. Nguyen",
+      "Quang H. Nguyen",
+      "Tuan H. Nguyen",
+      "Tho T. Quan",
+      "Cuong Quoc Duong",
+      "Phuong Thuy Viet Nguyen",
+      "Thanh N. Truong"
+    ],
+    "venue": "NICS 2022",
+    "year": 2022,
+    "thumbnail": "assets/images/publications/nics.webp",
+    "project": "#",
+    "paper": "https://ieeexplore.ieee.org/document/10013437",
+    "code": "#",
+    "arxiv": "#",
+    "bibtex": "@inproceedings{nguyen2022towards,\n  title={Towards de novo drug design for the coronavirus: A drug-target interaction prediction approach using atom-enhanced graph neural network with multi-hop gating mechanism},\n  author={Nguyen, Duc Q and Le, Khoan D and Ly, Bach T and Nguyen, An D and Nguyen, Quang H and Nguyen, Tuan H and Quan, Tho T and Duong, Cuong Quoc and Nguyen, Phuong Thuy Viet and Truong, Thanh N},\n  booktitle={2022 9th NAFOSTED Conference on Information and Computer Science (NICS)},\n  pages={275--280},\n  year={2022},\n  organization={IEEE}\n}"
+  }
+]

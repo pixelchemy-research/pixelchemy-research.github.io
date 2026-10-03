@@ -1,0 +1,40 @@
+{
+  "title": "FuzzyCtrl",
+  "subtitle": "Training-Free Reward-Guided Image Editing via Fuzzy Control",
+  "authors": [
+    {
+      "name": "Duc Khoan Le",
+      "url": "#"
+    },
+    {
+      "name": "Author Two",
+      "url": "#"
+    }
+  ],
+  "affiliation": "Pixelchemy Research",
+  "venue": "ACCV 2026",
+  "links": {
+    "paper": "#",
+    "arxiv": "#",
+    "code": "https://github.com/GenVision-Research/FuzzyCtrl",
+    "demo": ""
+  },
+  "teaser": "assets/teaser.svg",
+  "tldr": "Training-free reward-guided editing using fuzzy control.",
+  "abstract": "We introduce FuzzyCtrl, a training-free reward-guided image editing framework based on fuzzy control.",
+  "sections": [
+    {
+      "title": "Method",
+      "image": "assets/method.svg",
+      "caption": "Overview of FuzzyCtrl.",
+      "text": "Replace this placeholder with the final method description."
+    },
+    {
+      "title": "Results",
+      "image": "assets/results.svg",
+      "caption": "Qualitative results.",
+      "text": "Replace this placeholder with the final results description."
+    }
+  ],
+  "bibtex": "@inproceedings{le2026fuzzyctrl,...}"
+}

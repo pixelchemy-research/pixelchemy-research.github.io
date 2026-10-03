@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-09-20",
+    "type": "Publication",
+    "title": "TRACE is accepted to ACCV 2026",
+    "text": "Our paper \"TRACE: Time-Adaptive Residual Attention Control with Content-Style Decomposition for Training-Free Diffusion Style Transfer\" has been accepted to ACCV 2026.",
+    "link": "publications.html"
+  },
+  {
+    "date": "2026-08-20",
+    "type": "Update",
+    "title": "Pixelchemy Research website launched",
+    "text": "Pixelchemy Research is now online, bringing together our research projects, publications, people, and research updates.",
+    "link": "index.html"
+  },
+  {
+    "date": "2025-12-01",
+    "type": "Publication",
+    "title": "AttNetVLAD is accepted to RIVF 2025",
+    "text": "Our work \"AttNetVLAD and AttNetVLAD++: Capturing Frame Feature Correlations with Self-Attention for Event Spotting in Football Videos\" was accepted to RIVF 2025.",
+    "link": "publications.html"
+  },
+  {
+    "date": "2025-06-01",
+    "type": "Publication",
+    "title": "LTDAD-Talker is accepted to ICCCI 2025",
+    "text": "Our work \"LTDAD-Talker: Landmark-Guided Talking Face Generation with Temporal Consistency and Detail-Aware Discriminator\" was accepted to ICCCI 2025.",
+    "link": "publications.html"
+  }
+]
