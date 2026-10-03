@@ -631,33 +631,12 @@ footer {
 :root[data-theme="dark"] pre { background:#0d1a2c; }
 
 /* Responsive */
-@media (max-width: 980px) {
-  .hero { min-height: auto; padding: 90px 0 78px; }
-  .hero-grid { grid-template-columns: 1fr; gap: 52px; }
-  .hero-copy { max-width: 820px; }
-  .hero-visual { min-height: 360px; }
-  .hero-glass { max-width: 400px; }
-  .news-grid, .grid-3 { grid-template-columns: 1fr 1fr; }
-  .publication { grid-template-columns: 1fr; }
-  .publication img { max-width: 420px; }
-  .people-grid { grid-template-columns: 1fr 1fr; }
-}
 
-@media (max-width: 720px) {
-  .section { padding: 72px 0; }
-  .nav-inner { align-items: flex-start; padding: 18px 0; flex-direction: column; gap: 14px; }
-  .nav-links { width: 100%; overflow-x: auto; gap: 18px; padding-bottom: 3px; }
-  .nav-links a { font-size: .86rem; white-space: nowrap; }
-  .hero h1 { font-size: clamp(3rem, 15vw, 4.5rem); }
-  .section-head { align-items: flex-start; flex-direction: column; gap: 14px; margin-bottom: 34px; }
-  .news-grid, .grid-3, .research-list, .people-grid { grid-template-columns: 1fr; }
-  .news-row { grid-template-columns: 1fr; gap: 8px; }
-  .publication-tools { flex-direction: column; }
-  .hero-chip.two { right: 14px; }
-}
+
+
 
 /* =========================================================
-   V2.2 — GenVision visual refresh
+   V2.2 — Pixelchemy visual refresh
    Stronger section separation, blue/white identity, lab-style motion
    ========================================================= */
 
@@ -825,20 +804,8 @@ footer { padding: 15px 0; background:#f8fcff; border-top:1px solid #dfedf7; }
 .reveal { opacity:0; transform:translateY(22px); transition:opacity .72s ease,transform .72s cubic-bezier(.2,.7,.2,1); }
 .reveal.visible { opacity:1; transform:none; }
 
-@media (max-width: 900px) {
-  .hero { min-height:auto; padding-top:92px; }
-  .hero-grid { grid-template-columns:1fr; gap:52px; }
-  .hero-visual { min-height:410px; }
-  .news-home { margin-top:0; }
-  .news-home .container { padding:34px 28px; }
-  .section { padding:88px 0; }
-}
-@media (max-width:640px) {
-  .hero h1 { font-size:clamp(3rem,16vw,4.2rem); }
-  .hero-glass { width:92%; }
-  .section { padding:72px 0; }
-  .news-home .container { border-radius:20px; }
-}
+
+
 
 
 /* =========================================================
@@ -1042,14 +1009,7 @@ body {
   .hero::before { animation: none; }
 }
 
-@media (max-width: 720px) {
-  .hero-announcement {
-    width: 100%;
-    max-width: 100%;
-  }
-  .announcement-title { font-size: .82rem; }
-  .news-home { margin-top: -22px; }
-}
+
 
 /* =========================================================
    V2.4 — unified ocean identity + interactive probability field
@@ -1330,11 +1290,7 @@ footer { background:rgba(246,252,255,.72); backdrop-filter:blur(10px); }
 :root[data-theme="dark"] pre { background:rgba(9,25,43,.86); }
 :root[data-theme="dark"] footer { background:rgba(6,18,32,.84); }
 
-@media (max-width:720px) {
-  .project-content { padding:30px 22px 70px; border-radius:18px; }
-  .publication { padding:20px; }
-  .probability-field { opacity:.62; }
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration:.001ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; }
@@ -1342,7 +1298,7 @@ footer { background:rgba(246,252,255,.72); backdrop-filter:blur(10px); }
 }
 
 /* =========================================================
-   GenVision Research V2.5 — interaction & layout refinement
+   Pixelchemy Research V2.5 — interaction & layout refinement
    ========================================================= */
 :root {
   --nav-h: 68px;
@@ -1455,7 +1411,7 @@ body { padding-top: var(--nav-h); }
 }
 .search-shell, .year-select { position:relative; }
 .search-shell::before {
-  content:'⌕';
+  content:"⌕";
   position:absolute;
   left:15px;
   top:50%;
@@ -1558,7 +1514,7 @@ body { padding-top: var(--nav-h); }
 }
 .year-option:hover { background:rgba(15,143,215,.09); color:#0874b9; transform:translateX(3px); }
 .year-option.active { background:rgba(15,143,215,.12); color:#0874b9; }
-.year-option.active::after { content:'✓'; font-weight:900; }
+.year-option.active::after { content:"✓"; font-weight:900; }
 
 /* Back-to-top */
 .back-to-top {
@@ -1591,28 +1547,20 @@ body { padding-top: var(--nav-h); }
 /* Cursor trail probability field now reads as a tail, not a halo */
 .probability-field { opacity:.95; }
 
-:root[data-theme='dark'] .navbar.is-scrolled { background:rgba(7,20,35,.90); border-bottom-color:rgba(75,148,201,.28); }
-:root[data-theme='dark'] .year-select-trigger,
-:root[data-theme='dark'] .year-select-menu,
-:root[data-theme='dark'] .back-to-top { background:rgba(10,29,49,.94); border-color:rgba(83,153,205,.30); }
-:root[data-theme='dark'] .year-option:hover,
-:root[data-theme='dark'] .year-option.active { background:rgba(50,157,220,.13); color:#7ecfff; }
-:root[data-theme='dark'] .year-select-arrow { background:rgba(59,162,224,.11); color:#77c9fb; }
+:root[data-theme="dark"] .navbar.is-scrolled { background:rgba(7,20,35,.90); border-bottom-color:rgba(75,148,201,.28); }
+:root[data-theme="dark"] .year-select-trigger,
+:root[data-theme="dark"] .year-select-menu,
+:root[data-theme="dark"] .back-to-top { background:rgba(10,29,49,.94); border-color:rgba(83,153,205,.30); }
+:root[data-theme="dark"] .year-option:hover,
+:root[data-theme="dark"] .year-option.active { background:rgba(50,157,220,.13); color:#7ecfff; }
+:root[data-theme="dark"] .year-select-arrow { background:rgba(59,162,224,.11); color:#77c9fb; }
 
-@media (max-width:720px) {
-  :root { --nav-h: 64px; }
-  .page-hero { padding:38px 0 28px; }
-  .section.compact { padding-top:34px; }
-  .publication-tools { grid-template-columns:1fr; }
-  .back-to-top { right:16px; bottom:16px; width:44px; height:44px; }
-  .filter-bar { gap:8px; }
-  .filter-btn { padding:8px 12px; }
-}
+
 
 
 
 /* =========================================================
-   GenVision Research V2.7 — bouncing cube background
+   Pixelchemy Research V2.7 — bouncing cube background
    ========================================================= */
 
 /* Simple, non-morphing page transition. */
@@ -1656,13 +1604,11 @@ footer { z-index:2; }
 .page-hero,
 .project-header { backdrop-filter:blur(2px); }
 
-:root[data-theme='dark'] .section { background:rgba(7,17,30,.47); }
-:root[data-theme='dark'] .section.soft,
-:root[data-theme='dark'] .soft { background:rgba(10,27,47,.56); }
+:root[data-theme="dark"] .section { background:rgba(7,17,30,.47); }
+:root[data-theme="dark"] .section.soft,
+:root[data-theme="dark"] .soft { background:rgba(10,27,47,.56); }
 
-@media (max-width:720px) {
-  .cube-field { opacity:.86; }
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   .cube-field { display:none; }
@@ -1670,7 +1616,7 @@ footer { z-index:2; }
 }
 
 /* =========================================================
-   GenVision Research V2.8 — persistent, crisp cube layer
+   Pixelchemy Research V2.8 — persistent, crisp cube layer
    ========================================================= */
 
 /* Keep the animated cube canvas fixed to the viewport and above broad
@@ -1737,28 +1683,26 @@ footer > .container,
 }
 
 /* Prevent lower-page content surfaces from visually washing out cube edges. */
-:root[data-theme='dark'] .section {
+:root[data-theme="dark"] .section {
   background: rgba(7,17,30,.34) !important;
 }
-:root[data-theme='dark'] .section.soft,
-:root[data-theme='dark'] .soft {
+:root[data-theme="dark"] .section.soft,
+:root[data-theme="dark"] .soft {
   background: rgba(10,27,47,.42) !important;
 }
-:root[data-theme='dark'] .page-hero,
-:root[data-theme='dark'] .project-header {
+:root[data-theme="dark"] .page-hero,
+:root[data-theme="dark"] .project-header {
   background:
     radial-gradient(circle at 12% 14%, rgba(26,167,238,.11), transparent 32%),
     radial-gradient(circle at 86% 10%, rgba(10,132,216,.10), transparent 32%),
     linear-gradient(135deg,rgba(9,25,43,.72),rgba(6,18,32,.62)) !important;
 }
 
-@media (max-width:720px) {
-  .cube-field { opacity: .94 !important; }
-}
+
 
 
 /* =========================================================
-   GenVision Research V2.9 — navbar + trail reset refinements
+   Pixelchemy Research V2.9 — navbar + trail reset refinements
    ========================================================= */
 /* V2.8 accidentally changed the fixed navigation back to sticky. Keep it
    pinned to the viewport while body padding reserves exactly one nav height. */
@@ -1847,8 +1791,8 @@ body.page-leaving {
 
 /* Keep the document surface consistent with the first-paint veil. */
 html { background: #eef9ff; }
-:root[data-theme='dark'] { background: #07131f; }
-:root[data-theme='dark'] body { background-color: #07131f; }
+:root[data-theme="dark"] { background: #07131f; }
+:root[data-theme="dark"] body { background-color: #07131f; }
 
 @media (prefers-reduced-motion: reduce) {
   body { animation: none !important; transition: none !important; }
@@ -1886,7 +1830,7 @@ body { background-color: var(--bg, #eef9ff); }
 }
 
 .spatial-surface::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   z-index: 0;
@@ -1904,7 +1848,7 @@ body { background-color: var(--bg, #eef9ff); }
   transition: opacity .10s linear;
 }
 
-:root[data-theme='dark'] .spatial-surface::after {
+:root[data-theme="dark"] .spatial-surface::after {
   background:
     radial-gradient(
       circle var(--cube-shadow-size) at var(--cube-shadow-x) var(--cube-shadow-y),
@@ -1936,13 +1880,13 @@ body { background-color: var(--bg, #eef9ff); }
     0 2px 7px rgba(3, 79, 132, .035);
 }
 
-:root[data-theme='dark'] .card.spatial-surface,
-:root[data-theme='dark'] .news-card.spatial-surface,
-:root[data-theme='dark'] .research-item.spatial-surface,
-:root[data-theme='dark'] .person.spatial-surface,
-:root[data-theme='dark'] .publication.spatial-surface,
-:root[data-theme='dark'] .project-content.spatial-surface,
-:root[data-theme='dark'] .announcement-link.spatial-surface {
+:root[data-theme="dark"] .card.spatial-surface,
+:root[data-theme="dark"] .news-card.spatial-surface,
+:root[data-theme="dark"] .research-item.spatial-surface,
+:root[data-theme="dark"] .person.spatial-surface,
+:root[data-theme="dark"] .publication.spatial-surface,
+:root[data-theme="dark"] .project-content.spatial-surface,
+:root[data-theme="dark"] .announcement-link.spatial-surface {
   box-shadow:
     0 18px 48px rgba(0, 0, 0, .18),
     0 2px 8px rgba(0, 0, 0, .10);
@@ -1996,7 +1940,7 @@ body { background-color: var(--bg, #eef9ff); }
   transform: translate3d(0,-1px,0) scale(.96) !important;
 }
 
-:root[data-theme='dark'] .back-to-top {
+:root[data-theme="dark"] .back-to-top {
   background: rgba(8, 28, 47, .90) !important;
   border-color: rgba(94, 191, 245, .28) !important;
   color: #78d4ff !important;
@@ -2005,14 +1949,7 @@ body { background-color: var(--bg, #eef9ff); }
     inset 0 1px 0 rgba(255, 255, 255, .05) !important;
 }
 
-@media (max-width: 720px) {
-  .back-to-top {
-    right: max(14px, env(safe-area-inset-right)) !important;
-    bottom: max(14px, env(safe-area-inset-bottom)) !important;
-    width: 44px !important;
-    height: 44px !important;
-  }
-}
+
 
 /* =========================================================
    Footer-to-viewport layout
@@ -2105,7 +2042,7 @@ body.project-page .project-main > :last-child {
 html {
   background-color: #eef9ff !important;
 }
-:root[data-theme='dark'] {
+:root[data-theme="dark"] {
   background-color: #07131f !important;
 }
 
@@ -2903,15 +2840,7 @@ html {
    Mobile
    ========================================================= */
 
-@media (max-width: 760px) {
-  .research-list {
-    grid-template-columns: 1fr;
-  }
 
-  .research-item {
-    padding: 22px 20px;
-  }
-}
 
 /* Publication — Light mode */
 html:not([data-theme="dark"]) #publication-list .publication {
@@ -3564,4 +3493,1121 @@ html[data-theme="dark"] #news-list .news-type {
   color: #ffb092;
   background: rgba(255, 112, 77, 0.22);
   border: 1px solid rgba(255, 154, 118, 0.40);
+}
+
+/* =========================================================
+   Pixelchemy Research — consolidated responsive layer
+   Replaces scattered max-width media queries.
+   ========================================================= */
+
+/* Compatibility aliases used by later component rules. */
+:root {
+  --text: var(--primary);
+  --muted: var(--secondary);
+  --blue: var(--accent);
+}
+
+/* Prevent long content from forcing horizontal overflow. */
+.hero-grid > *,
+.section-head > *,
+.publication > *,
+.news-row > *,
+.card-body,
+.project-content,
+.modal-content,
+.bibtex-header {
+  min-width: 0;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+pre, code {
+  max-width: 100%;
+}
+
+.pub-title,
+.pub-authors,
+.card-title,
+.card-text,
+.news-row h3,
+.news-row p,
+.project-title,
+.project-authors,
+.section-subtitle {
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Tablet / compact desktop ---------- */
+@media (max-width: 1024px) {
+  .container {
+    width: min(calc(100% - 40px), var(--max));
+  }
+
+  .section {
+    padding: 84px 0;
+  }
+
+  .section.compact {
+    padding: 58px 0;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 78px 0 72px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .hero-copy {
+    max-width: 820px;
+  }
+
+  .hero-visual {
+    min-height: 400px;
+  }
+
+  .hero-glass {
+    width: min(100%, 420px);
+  }
+
+  .news-grid,
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .publication {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .publication img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .news-home {
+    margin-top: 0 !important;
+  }
+
+  .news-home .container {
+    padding: 34px 28px;
+  }
+}
+
+/* ---------- Phone / small tablet ---------- */
+@media (max-width: 768px) {
+  :root {
+    --nav-h: 112px;
+  }
+
+  html {
+    scroll-padding-top: calc(var(--nav-h) + 12px);
+  }
+
+  body,
+  body.project-page {
+    padding-top: var(--nav-h) !important;
+  }
+
+  .container {
+    width: min(calc(100% - 32px), var(--max));
+  }
+
+  /* Two-row mobile navigation: logo/theme on top, links scroll below. */
+  .navbar {
+    height: var(--nav-h) !important;
+  }
+
+  .nav-inner {
+    width: min(calc(100% - 24px), var(--max));
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 8px 0 !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "logo theme"
+      "links links";
+    align-content: center;
+    align-items: center !important;
+    gap: 8px 12px !important;
+  }
+
+  .logo {
+    grid-area: logo;
+    min-width: 0;
+    max-width: 100%;
+    gap: 10px;
+    font-size: 1.02rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .logo-image {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+
+  .theme-toggle {
+    grid-area: theme;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 auto;
+  }
+
+  .nav-links {
+    grid-area: links;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 0 2px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: x proximity;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links a {
+    flex: 0 0 auto;
+    padding: 6px 8px;
+    border-radius: 8px;
+    font-size: .78rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    scroll-snap-align: start;
+  }
+
+  .nav-links a::after {
+    bottom: 1px;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 0;
+    padding: 48px 0 54px;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px;
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.45rem, 12vw, 3.7rem);
+    line-height: 1.02;
+    letter-spacing: -.052em;
+    margin-bottom: 20px;
+  }
+
+  .hero-copy > p,
+  .hero p {
+    font-size: 1rem;
+    line-height: 1.72;
+  }
+
+  .hero-announcement {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 14px;
+  }
+
+  .announcement-label {
+    font-size: .62rem;
+    padding: 4px 7px;
+  }
+
+  .announcement-title {
+    min-width: 0;
+    font-size: .78rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hero-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  /* Remove absolute chip positioning on mobile to prevent overlap. */
+  .hero-visual {
+    min-height: 0;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    align-items: stretch;
+    justify-items: stretch;
+  }
+
+  .hero-glass {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 340px);
+    border-radius: 26px;
+    transform: none !important;
+  }
+
+  .hero-mark-inner {
+    width: 138px;
+    height: 138px;
+    font-size: 1.65rem;
+  }
+
+  .hero-chip,
+  .hero-chip.one,
+  .hero-chip.two,
+  .hero-chip.three,
+  .hero-chip.four {
+    position: static !important;
+    inset: auto !important;
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 9px;
+    font-size: .73rem;
+    line-height: 1.25;
+    text-align: center;
+    transform: none !important;
+  }
+
+  /* Sections */
+  .section {
+    padding: 58px 0;
+  }
+
+  .section.compact {
+    padding: 42px 0;
+  }
+
+  .section-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    font-size: clamp(1.9rem, 9vw, 2.5rem);
+  }
+
+  .section-subtitle {
+    margin-bottom: 30px;
+    font-size: .96rem;
+    line-height: 1.72;
+  }
+
+  .news-grid,
+  .grid-3,
+  .research-list,
+  .people-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px;
+  }
+
+  .news-home .container {
+    padding: 24px 18px;
+    border-radius: 20px;
+  }
+
+  .card,
+  .news-card,
+  .research-item,
+  .person {
+    border-radius: 18px;
+  }
+
+  .card-body {
+    padding: 20px 18px 22px;
+  }
+
+  .card-title {
+    font-size: 1.16rem;
+  }
+
+  .card-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 8px;
+  }
+
+  .project-tags {
+    justify-content: center;
+    gap: 6px;
+  }
+
+  /* News list */
+  #news-list.news-list {
+    gap: 12px;
+  }
+
+  #news-list .news-row,
+  .news-row {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 10px;
+    padding: 18px !important;
+    border-radius: 16px;
+  }
+
+  #news-list .news-row > :first-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 10px;
+  }
+
+  #news-list .news-type {
+    margin-top: 0 !important;
+  }
+
+  /* Publications */
+  .publication-tools {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+
+  #pub-search,
+  .year-select-trigger {
+    min-height: 46px;
+  }
+
+  .year-select-menu {
+    z-index: 2200;
+  }
+
+  .publication,
+  #publication-list .publication {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px !important;
+    padding: 18px !important;
+    border-radius: 16px;
+  }
+
+  .publication img {
+    width: 100%;
+    max-width: 100% !important;
+    aspect-ratio: 16 / 9;
+  }
+
+  .pub-title {
+    font-size: 1.08rem;
+  }
+
+  .pub-authors {
+    font-size: .9rem;
+    line-height: 1.55;
+  }
+
+  .pub-links {
+    gap: 8px;
+  }
+
+  .pub-link {
+    min-height: 40px;
+  }
+
+  .year-heading {
+    margin: 34px 0 10px;
+    font-size: 1.35rem;
+  }
+
+  /* People */
+  .person {
+    padding: 22px 18px;
+  }
+
+  .person img {
+    width: 124px;
+    height: 124px;
+  }
+
+  /* Internal/project pages */
+  .page-hero {
+    padding: 34px 0 26px;
+  }
+
+  .project-header {
+    padding: 42px 0 28px;
+  }
+
+  .project-title {
+    font-size: clamp(2rem, 10vw, 3rem);
+    line-height: 1.08;
+  }
+
+  .project-authors {
+    margin-top: 18px;
+    font-size: .92rem;
+  }
+
+  .project-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+  }
+
+  .project-buttons .btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .teaser {
+    width: calc(100% - 32px);
+    margin: 28px auto 14px;
+    border-radius: 14px;
+  }
+
+  .project-content {
+    width: calc(100% - 32px);
+    margin: 20px auto 0 !important;
+    padding: 26px 18px 56px !important;
+    border-radius: 18px;
+  }
+
+  .project-content h2 {
+    margin: 46px 0 14px;
+    font-size: 1.5rem;
+  }
+
+  .project-content p {
+    font-size: .97rem;
+  }
+
+  .project-content img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  pre {
+    padding: 15px;
+    font-size: .8rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Modal / BibTeX */
+  .modal {
+    padding: 12px;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-height: calc(100dvh - 24px);
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .bibtex-header {
+    gap: 10px;
+    padding-right: 38px;
+    flex-wrap: wrap;
+  }
+
+  .bibtex-copy {
+    min-height: 36px;
+  }
+
+  .modal-content pre {
+    padding: 14px;
+    font-size: .76rem;
+  }
+
+  /* Fixed/floating UI */
+  .back-to-top {
+    right: max(14px, env(safe-area-inset-right)) !important;
+    bottom: max(14px, env(safe-area-inset-bottom)) !important;
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+  .probability-field {
+    opacity: .45 !important;
+  }
+
+  .cube-field {
+    opacity: .72 !important;
+  }
+
+  footer {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+/* ---------- Very small phones ---------- */
+@media (max-width: 480px) {
+  :root {
+    --nav-h: 108px;
+  }
+
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .nav-inner {
+    width: calc(100% - 18px);
+  }
+
+  .logo {
+    font-size: .94rem;
+  }
+
+  .logo-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-links a {
+    font-size: .74rem;
+    padding-inline: 7px;
+  }
+
+  .hero {
+    padding: 38px 0 46px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.25rem, 12vw, 3rem);
+  }
+
+  .hero-actions,
+  .project-buttons {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero-glass {
+    width: min(100%, 300px);
+  }
+
+  .hero-mark-inner {
+    width: 120px;
+    height: 120px;
+    font-size: 1.42rem;
+  }
+
+  .hero-chip {
+    font-size: .69rem !important;
+    padding: 7px 6px !important;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .section.compact {
+    padding: 36px 0;
+  }
+
+  .news-home .container {
+    padding: 20px 14px;
+    border-radius: 17px;
+  }
+
+  .card-body {
+    padding: 18px 15px 20px;
+  }
+
+  #news-list .news-row,
+  #publication-list .publication {
+    padding: 15px !important;
+  }
+
+  .pub-links .pub-link,
+  .pub-links .bibtex-btn {
+    flex: 1 1 calc(50% - 4px);
+    min-width: 0;
+  }
+
+  .filter-bar {
+    gap: 7px;
+  }
+
+  .filter-btn {
+    min-height: 36px;
+    padding: 7px 10px;
+    font-size: .8rem;
+  }
+
+  .project-content,
+  .teaser {
+    width: calc(100% - 24px);
+  }
+}
+
+/* ---------- Touch devices ---------- */
+@media (hover: none), (pointer: coarse) {
+  .card:hover,
+  .news-card:hover,
+  .person:hover,
+  .research-item:hover,
+  .project-card:hover,
+  #publication-list .publication:hover,
+  #news-list .news-row:hover,
+  .btn:hover,
+  .pub-link:hover,
+  .filter-btn:hover,
+  .theme-toggle:hover,
+  .hero-announcement:hover {
+    transform: none !important;
+  }
+
+  .probability-field {
+    display: none !important;
+  }
+
+  .nav-links,
+  .year-select-menu,
+  .modal-content,
+  pre {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* ---------- Short landscape phones ---------- */
+@media (max-width: 900px) and (max-height: 520px) and (orientation: landscape) {
+  :root {
+    --nav-h: 64px;
+  }
+
+  .navbar {
+    height: var(--nav-h) !important;
+  }
+
+  .nav-inner {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "logo links theme";
+    gap: 10px;
+    padding: 6px 0 !important;
+  }
+
+  .nav-links {
+    min-width: 0;
+  }
+
+  .hero {
+    padding: 34px 0 40px;
+  }
+
+  .hero-visual {
+    display: none !important;
+  }
+}
+
+@media (max-width: 980px) {
+
+  .hero-chip.one {
+    left: 6%;
+    top: 57%;
+  }
+
+  .hero-chip.two {
+    right: 6%;
+    top: 17%;
+  }
+
+  .hero-chip.three {
+    left: 10%;
+    bottom: 8%;
+  }
+
+  .hero-chip.four {
+    right: 6%;
+    bottom: 26%;
+  }
+
+}
+
+
+/* =========================================================
+   HERO VISUAL — FINAL RESPONSIVE FIX
+   Keep floating chips on every screen
+   ========================================================= */
+
+.hero-visual {
+  position: relative !important;
+
+  width: 100%;
+  min-height: 500px;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+}
+
+
+/* ---------------------------------------------------------
+   Glass container = coordinate system for all floating items
+   --------------------------------------------------------- */
+
+.hero-glass {
+  position: relative !important;
+
+  width: min(100%, 480px);
+  aspect-ratio: 1 / 1;
+
+  overflow: hidden;
+
+  border-radius: 38px;
+
+  transform: none !important;
+}
+
+
+/* ---------------------------------------------------------
+   Center GenAI
+   IMPORTANT: override old width:145px / height:145px
+   --------------------------------------------------------- */
+
+.hero-mark {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  z-index: 2;
+
+  pointer-events: none;
+}
+
+.hero-mark-inner {
+  width: clamp(135px, 35%, 170px) !important;
+  height: auto !important;
+
+  aspect-ratio: 1 / 1;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  font-size: clamp(1.65rem, 3vw, 2.2rem);
+  font-weight: 850;
+
+  white-space: nowrap;
+}
+
+
+/* ---------------------------------------------------------
+   Floating chips
+   --------------------------------------------------------- */
+
+.hero-chip,
+.hero-chip.one,
+.hero-chip.two,
+.hero-chip.three,
+.hero-chip.four {
+  position: absolute !important;
+
+  width: max-content !important;
+  min-width: 0 !important;
+
+  inset: auto !important;
+
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  padding: 9px 13px;
+
+  border-radius: 12px;
+
+  white-space: nowrap;
+
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-weight: 750;
+
+  z-index: 4;
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   DESKTOP POSITION
+   4 chips distributed around GenAI
+   ========================================================= */
+
+/* top-left */
+.hero-chip.one {
+  left: 6% !important;
+  top: 10% !important;
+
+  right: auto !important;
+  bottom: auto !important;
+}
+
+
+/* top-right */
+.hero-chip.two {
+  right: 6% !important;
+  top: 25% !important;
+
+  left: auto !important;
+  bottom: auto !important;
+}
+
+
+/* bottom-left */
+.hero-chip.three {
+  left: 7% !important;
+  bottom: 24% !important;
+
+  right: auto !important;
+  top: auto !important;
+}
+
+
+/* bottom-right */
+.hero-chip.four {
+  right: 6% !important;
+  bottom: 9% !important;
+
+  left: auto !important;
+  top: auto !important;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 980px) {
+
+  .hero-visual {
+    min-height: 430px;
+  }
+
+  .hero-glass {
+    width: min(72vw, 420px);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   Still FLOATING — never becomes rows
+   ========================================================= */
+
+@media (max-width: 720px) {
+
+  .hero-visual {
+    min-height: 370px !important;
+
+    display: flex !important;
+
+    padding: 12px 0 24px;
+  }
+
+  .hero-glass {
+    width: min(88vw, 340px) !important;
+
+    aspect-ratio: 1 / 1;
+
+    border-radius: 28px;
+
+    transform: none !important;
+  }
+
+  .hero-mark {
+    position: absolute !important;
+
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    display: grid !important;
+    place-items: center !important;
+  }
+
+  .hero-mark-inner {
+    width: 125px !important;
+
+    font-size: 1.55rem !important;
+  }
+
+
+  .hero-chip,
+  .hero-chip.one,
+  .hero-chip.two,
+  .hero-chip.three,
+  .hero-chip.four {
+    position: absolute !important;
+
+    width: max-content !important;
+
+    padding: 7px 9px !important;
+
+    font-size: 0.67rem !important;
+
+    transform: none !important;
+  }
+
+
+  /* top-left */
+
+  .hero-chip.one {
+    left: 4% !important;
+    top: 8% !important;
+
+    right: auto !important;
+    bottom: auto !important;
+  }
+
+
+  /* top-right */
+
+  .hero-chip.two {
+    right: 4% !important;
+    top: 26% !important;
+
+    left: auto !important;
+    bottom: auto !important;
+  }
+
+
+  /* bottom-left */
+
+  .hero-chip.three {
+    left: 4% !important;
+    bottom: 24% !important;
+
+    right: auto !important;
+    top: auto !important;
+  }
+
+
+  /* bottom-right */
+
+  .hero-chip.four {
+    right: 4% !important;
+    bottom: 8% !important;
+
+    left: auto !important;
+    top: auto !important;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL PHONE
+   ========================================================= */
+
+@media (max-width: 420px) {
+
+  .hero-visual {
+    min-height: 335px !important;
+  }
+
+  .hero-glass {
+    width: min(90vw, 310px) !important;
+  }
+
+  .hero-mark-inner {
+    width: 112px !important;
+
+    font-size: 1.4rem !important;
+  }
+
+  .hero-chip,
+  .hero-chip.one,
+  .hero-chip.two,
+  .hero-chip.three,
+  .hero-chip.four {
+    padding: 6px 7px !important;
+
+    font-size: 0.59rem !important;
+
+    width: max-content !important;
+  }
+
+  .hero-chip.one {
+    left: 3% !important;
+    top: 7% !important;
+  }
+
+  .hero-chip.two {
+    right: 3% !important;
+    top: 25% !important;
+  }
+
+  .hero-chip.three {
+    left: 3% !important;
+    bottom: 23% !important;
+  }
+
+  .hero-chip.four {
+    right: 3% !important;
+    bottom: 7% !important;
+  }
+
+}
+
+.project-status.ongoing {
+  color: #0f7a3d;
+  background: rgba(34, 197, 94, 0.14);
+  border: 1px solid rgba(34, 197, 94, 0.32);
+
+  box-shadow:
+    0 4px 12px rgba(34, 197, 94, 0.10);
+}
+
+html[data-theme="dark"] .project-status.ongoing {
+  color: #86efac;
+  background: rgba(34, 197, 94, 0.20);
+  border-color: rgba(74, 222, 128, 0.42);
+
+  box-shadow:
+    0 4px 14px rgba(34, 197, 94, 0.12);
 }
